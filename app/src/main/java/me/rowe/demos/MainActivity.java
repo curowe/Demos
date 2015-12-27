@@ -15,6 +15,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViewById(R.id.button1).setOnClickListener(this);
+        findViewById(R.id.button2).setOnClickListener(this);
+        findViewById(R.id.button3).setOnClickListener(this);
     }
 
     @Override
@@ -22,6 +24,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
         switch (v.getId()) {
             case R.id.button1:
                 startActivity(new Intent(this, HelloActivity.class));
+                break;
+            case R.id.button2:
+                startActivity(new Intent(this,HellosActivity.class));
+                break;
+            case R.id.button3:
+                startActivity(new Intent(this,ViewsActivity.class));
                 break;
         }
     }
