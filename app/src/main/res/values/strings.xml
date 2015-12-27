@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Demos</string>
+    <string name="button_hello">显示Hello</string>
 </resources>
