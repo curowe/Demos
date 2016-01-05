@@ -19,6 +19,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.button3).setOnClickListener(this);
         findViewById(R.id.button4).setOnClickListener(this);
         findViewById(R.id.button5).setOnClickListener(this);
+        findViewById(R.id.bt_6).setOnClickListener(this);
     }
 
     @Override
@@ -39,6 +40,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.button5:
                 startActivity(new Intent(this,SmsSenderActivity.class));
                 break;
+            case R.id.bt_6:
+                startActivity(new Intent(this,ReadFilesActivity.class));
         }
     }
 }

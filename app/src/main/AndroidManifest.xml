@@ -22,6 +22,8 @@
         <activity android:name=".ViewsActivity"/>
         <activity android:name=".DialerActivity"/>
         <activity android:name=".SmsSenderActivity"/>
+        <activity android:name=".ReadFilesActivity"/>
+            
 
 
     </application>
